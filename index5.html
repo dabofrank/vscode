@@ -141,6 +141,45 @@
         </tr>
     </table>
 
+
+
+    <p>合并单元格6和7:colspan</p>
+    <p>合并单元格15和20:rowspan</p>
+    <p>水平合并：保留左边，删除右边</p>
+    <p>垂直合并：保留上边，删除下边</p>
+
+    <table border="1" width="600px" height="400px">
+        <tr>
+            <td>单元格1</td>
+            <td>单元格2</td>
+            <td>单元格3</td>
+            <td>单元格4</td>
+            <td>单元格5</td>
+        </tr>
+        <tr>
+            <td colspan="2">单元格6单元格7</td>
+            <td>单元格8</td>
+            <td>单元格9</td>
+            <td>单元格10</td>
+        </tr>
+        <tr>
+            <td>单元格11</td>
+            <td>单元格12</td>
+            <td rowspan="3">单元格13,18,23</td>
+            <td>单元格14</td>
+            <td rowspan="2">单元格1520</td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2">单元格16,17,21,22</td>
+            <td>单元格19</td>
+        </tr>
+        <tr>
+            <td>单元格24</td>
+            <td>单元格25</td>
+        </tr>
+    </table>
+
+
     
 </body>
 </html>
